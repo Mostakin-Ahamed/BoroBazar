@@ -1,0 +1,183 @@
+[
+    {
+      "image": "https://i.ibb.co/B6MynYy/m2.png",
+      "name": "Casual Polo Shirt",
+      "type": "Shirt",
+      "price": 29.99,
+      "rating": 4.3,
+      "brand": "CasualWear",
+      "details": "Comfortable polo shirt for a casual look."
+    },
+    {
+      "image": "https://i.ibb.co/xf9RrhS/pa.png",
+      "name": "Slim-fit Chinos",
+      "type": "Pants",
+      "price": 39.99,
+      "rating": 4.5,
+      "brand": "FashionHub",
+      "details": "Slim-fit chinos for a modern and stylish appearance."
+    },
+    {
+      "image": "https://i.ibb.co/MhwjtNg/pa3.png",
+      "name": "Running Shorts",
+      "type": "Shorts",
+      "price": 24.99,
+      "rating": 4.8,
+      "brand": "SportsGear",
+      "details": "Breathable running shorts for active men."
+    },
+    {
+      "image": "https://i.ibb.co/jGqn1nP/pa2.png",
+      "name": "Classic Pants",
+      "type": "Blazer",
+      "price": 69.99,
+      "rating": 4.7,
+      "brand": "FormalStyle",
+      "details": "Classic blazer for a sophisticated and polished look."
+    },
+    {
+      "image": "https://ibb.co/RSxT0jx",
+      "name": "Denim Jacket",
+      "type": "Jacket",
+      "price": 54.99,
+      "rating": 4.6,
+      "brand": "DenimCraft",
+      "details": "Stylish denim jacket for a rugged yet fashionable appeal."
+    },
+    {
+      "image": "https://i.ibb.co/6Pk2Gv9/male4.png",
+      "name": "Hiking Boots",
+      "type": "Shoes",
+      "price": 79.99,
+      "rating": 4.9,
+      "brand": "AdventureGear",
+      "details": "Durable hiking boots for outdoor enthusiasts."
+    },
+    {
+      "image": "https://i.ibb.co/NFtvNq8/male5.png",
+      "name": "Crewneck Sweater",
+      "type": "Sweater",
+      "price": 49.99,
+      "rating": 4.4,
+      "brand": "WinterWarm",
+      "details": "Cozy crewneck sweater for chilly days."
+    },
+    {
+      "image": "https://i.ibb.co/TbdjMbt/m5.png",
+      "name": "Formal Dress Shirt",
+      "type": "Shirt",
+      "price": 34.99,
+      "rating": 4.5,
+      "brand": "ElegantStyle",
+      "details": "Crisp formal dress shirt for special occasions."
+    },
+    {
+      "image": "https://i.ibb.co/56VcJJ5/pa1.png",
+      "name": "Cargo Pants",
+      "type": "Pants",
+      "price": 44.99,
+      "rating": 4.2,
+      "brand": "UrbanExplorer",
+      "details": "Versatile cargo pants with ample pocket space."
+    },
+    {
+      "image": "https://i.ibb.co/26D3tZD/m.png",
+      "name": "Graphic T-Shirt",
+      "type": "T-Shirt",
+      "price": 19.99,
+      "rating": 4.6,
+      "brand": "GraphicStyle",
+      "details": "Expressive graphic T-shirt for a bold statement."
+    },
+    {
+      "image": "https://i.ibb.co/XDpx6nK/fmale1.png",
+      "name": "Flowy Summer Dress",
+      "type": "Dress",
+      "price": 49.99,
+      "rating": 4.7,
+      "brand": "SummerChic",
+      "details": "Light and flowy summer dress for a stylish look."
+    },
+    {
+      "image": "https://i.ibb.co/xf9RrhS/pa.png",
+      "name": "Skinny Jeans",
+      "type": "Jeans",
+      "price": 39.99,
+      "rating": 4.5,
+      "brand": "Fashionista",
+      "details": "Trendy skinny jeans for a modern and sleek appearance."
+    },
+    {
+      "image": "https://i.ibb.co/Sx3sK5q/fmale.png",
+      "name": "Athletic Leggings",
+      "type": "Leggings",
+      "price": 29.99,
+      "rating": 4.8,
+      "brand": "ActiveStyle",
+      "details": "Stretchy athletic leggings for comfortable workouts."
+    },
+    {
+      "image": "https://i.ibb.co/jh96dkb/fmale2.png",
+      "name": "Faux Leather Jacket",
+      "type": "Jacket",
+      "price": 59.99,
+      "rating": 4.6,
+      "brand": "ChicLeather",
+      "details": "Stylish faux leather jacket for a fashionable edge."
+    },
+    {
+      "image": "https://i.ibb.co/R2YpLQx/female5.png",
+      "name": "Ankle Boots",
+      "type": "Boots",
+      "price": 69.99,
+      "rating": 4.9,
+      "brand": "TrendyFootwear",
+      "details": "Fashionable ankle boots for a trendy look."
+    },
+    {
+      "image": "https://i.ibb.co/PGdXTs7/female4.png",
+      "name": "Knit Sweater",
+      "type": "Sweater",
+      "price": 54.99,
+      "rating": 4.4,
+      "brand": "CozyKnits",
+      "details": "Warm and comfortable knit sweater for cold days."
+    },
+    {
+      "image": "https://i.ibb.co/b5PVK62/female3.png",
+      "name": "Wrap Blouse",
+      "type": "Blouse",
+      "price": 34.99,
+      "rating": 4.5,
+      "brand": "ElegantFeminine",
+      "details": "Elegant wrap blouse for a sophisticated look."
+    },
+    {
+      "image": "path/to/female_image8.jpg",
+      "name": "Wide-Leg Trousers",
+      "type": "Trousers",
+      "price": 44.99,
+      "rating": 4.2,
+      "brand": "ModernChic",
+      "details": "Fashionable wide-leg trousers for a stylish ensemble."
+    },
+    {
+      "image": "https://i.ibb.co/g7ksTVX/female2.png",
+      "name": "Bohemian Maxi Skirt",
+      "type": "Skirt",
+      "price": 49.99,
+      "rating": 4.6,
+      "brand": "BohoVibes",
+      "details": "Bohemian-style maxi skirt for a free-spirited look."
+    },
+    {
+      "image": "https://i.ibb.co/g7ksTVX/female2.png",
+      "name": "Printed Blazer",
+      "type": "Blazer",
+      "price": 59.99,
+      "brand": "BohoVibes",
+      "details": "Bohemian-style maxi skirt for a free-spirited look."
+  }
+      
+]
+
