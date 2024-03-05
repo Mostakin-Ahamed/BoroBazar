@@ -52,7 +52,7 @@ const Login = () => {
     }
 
     return (
-        <div className="mb-48">
+        <div className="mb-36  lg:w-11/12 mx-auto">
             <Helmet><title>Login</title></Helmet>
             <div>
                 <h2 className="text-3xl my-10 text-center">Please Login!</h2>

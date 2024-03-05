@@ -15,14 +15,14 @@ const Navbar = () => {
 
     const navLinks = <>
         <li><NavLink className="mx-3" to='/'>Home</NavLink></li>
-        <li><NavLink className="mx-3" to='/addProduct'>Add Product</NavLink></li>
+        <li><NavLink className="mx-3" to='/sellProduct'>Sell Products</NavLink></li>
         <li><NavLink className="mx-3" to='/myCart'>My Cart</NavLink></li>
         
     </>
 
     return (
-        <div>
-            <div className="bg-inherit lg:w-10/12 mx-auto">
+        <div className="lg:w-9/12 mx-auto ">
+            <div className="bg-inherit ">
                 <div className="navbar ">
                     <div className="navbar-start">
                         <div className="dropdown">
@@ -71,7 +71,7 @@ const Navbar = () => {
                                     </div>
                         }
                         {
-                            user && <li><button onClick={handleSignOut}> Log Out</button></li>
+                            user && <li><button className="btn btn-outline btn-error" onClick={handleSignOut}> Log Out</button></li>
                         }
                         
 
