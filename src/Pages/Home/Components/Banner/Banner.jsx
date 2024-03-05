@@ -28,7 +28,7 @@ const Banner = () => {
                             </div>
                             <div>
                                 <div>
-                                    <button className='w-[257px] absolute h-[55px] bg-[#FE7E41] mt-9 font-semibold text-base text-white spacing-5'>See Our Packages</button>
+                                    <button className='w-[257px] absolute h-[55px] bg-[#FE7E41] mt-9 font-semibold text-base text-white spacing-5'>See Our Products</button>
                                     <button className='static w-[257px] h-[55px] border-solid border-2 mt-12 ml-5 border-black'></button>
                                 </div>
                                 <div >
@@ -40,9 +40,10 @@ const Banner = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='pr-10 lg:mr-44 ml-11' >
-                        <img className='lg:h-[480px] lg:w-[718px] object-cover mb-20' src="/banner.jpg" alt="" />
-                        <img className='absolute ml-44 -mt-64 lg:ml-80 lg:-mt-[350px]' src="/Play video.svg" alt="" />
+                    <div className='pr-10 lg:mr-44 ml-11 mt-10' >
+                        <img className='lg:h-[480px] lg:w-[718px] object-contain mb-20' src="/src/assets/slider-layer2.png" alt="" />
+                        <img className='absolute ml-44 -mt-64 lg:ml-80 lg:-mt-[250px]' src="/src/assets/slider-layer3.png" alt="" />
+                        <img className='absolute ml-44 -mt-64 lg:ml-96 lg:-mt-[550px]' src="/src/assets/slider-layer6.png" alt="" />
                     </div>
                 </div>
 
