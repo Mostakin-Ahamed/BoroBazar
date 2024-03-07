@@ -9,6 +9,7 @@ import Register from "../Pages/Register/Register";
 import SellProduct from "../Pages/Sell Product/SellProduct";
 import PrivateRoute from "./PrivateRoute";
 import UserCart from "../Pages/UserCart/UserCart";
+import AllProducts from "../Pages/AllProducts/AllProducts"
 
 
 
@@ -34,6 +35,9 @@ import UserCart from "../Pages/UserCart/UserCart";
           },{
             path:'/myCart',
             element: <PrivateRoute><UserCart></UserCart> </PrivateRoute>
+          },{
+            path:'/allProducts',
+            element: <AllProducts></AllProducts>
           }
         ]
         },

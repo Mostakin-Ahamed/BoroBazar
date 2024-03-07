@@ -46,7 +46,7 @@ const SellProduct = () => {
 
     return (
         <div className="mb-48">
-            <Helmet><title>Sell Product </title></Helmet>
+            <Helmet><title>Sell Product || BoroBazar</title></Helmet>
             <h2 className="text-3xl my-10 text-center">Add a new product!</h2>
             <form ref={formRef} onSubmit={handleNewProduct} className="w-1/2 lg:w-1/2 md:3/4 mx-auto">
                 <div className="form-control">

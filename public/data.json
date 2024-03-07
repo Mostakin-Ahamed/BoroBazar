@@ -1,183 +1,302 @@
 [
-    {
-      "image": "https://i.ibb.co/B6MynYy/m2.png",
-      "name": "Casual Polo Shirt",
-      "type": "Shirt",
-      "price": 29.99,
-      "rating": 4.3,
-      "brand": "CasualWear",
-      "details": "Comfortable polo shirt for a casual look."
-    },
-    {
-      "image": "https://i.ibb.co/xf9RrhS/pa.png",
-      "name": "Slim-fit Chinos",
-      "type": "Pants",
-      "price": 39.99,
-      "rating": 4.5,
-      "brand": "FashionHub",
-      "details": "Slim-fit chinos for a modern and stylish appearance."
-    },
-    {
-      "image": "https://i.ibb.co/MhwjtNg/pa3.png",
-      "name": "Running Shorts",
-      "type": "Shorts",
-      "price": 24.99,
-      "rating": 4.8,
-      "brand": "SportsGear",
-      "details": "Breathable running shorts for active men."
-    },
-    {
-      "image": "https://i.ibb.co/jGqn1nP/pa2.png",
-      "name": "Classic Pants",
-      "type": "Blazer",
-      "price": 69.99,
-      "rating": 4.7,
-      "brand": "FormalStyle",
-      "details": "Classic blazer for a sophisticated and polished look."
-    },
-    {
-      "image": "https://ibb.co/RSxT0jx",
-      "name": "Denim Jacket",
-      "type": "Jacket",
-      "price": 54.99,
-      "rating": 4.6,
-      "brand": "DenimCraft",
-      "details": "Stylish denim jacket for a rugged yet fashionable appeal."
-    },
-    {
-      "image": "https://i.ibb.co/6Pk2Gv9/male4.png",
-      "name": "Hiking Boots",
-      "type": "Shoes",
-      "price": 79.99,
-      "rating": 4.9,
-      "brand": "AdventureGear",
-      "details": "Durable hiking boots for outdoor enthusiasts."
-    },
-    {
-      "image": "https://i.ibb.co/NFtvNq8/male5.png",
-      "name": "Crewneck Sweater",
-      "type": "Sweater",
-      "price": 49.99,
-      "rating": 4.4,
-      "brand": "WinterWarm",
-      "details": "Cozy crewneck sweater for chilly days."
-    },
-    {
-      "image": "https://i.ibb.co/TbdjMbt/m5.png",
-      "name": "Formal Dress Shirt",
-      "type": "Shirt",
-      "price": 34.99,
-      "rating": 4.5,
-      "brand": "ElegantStyle",
-      "details": "Crisp formal dress shirt for special occasions."
-    },
-    {
-      "image": "https://i.ibb.co/56VcJJ5/pa1.png",
-      "name": "Cargo Pants",
-      "type": "Pants",
-      "price": 44.99,
-      "rating": 4.2,
-      "brand": "UrbanExplorer",
-      "details": "Versatile cargo pants with ample pocket space."
-    },
-    {
-      "image": "https://i.ibb.co/26D3tZD/m.png",
-      "name": "Graphic T-Shirt",
-      "type": "T-Shirt",
-      "price": 19.99,
-      "rating": 4.6,
-      "brand": "GraphicStyle",
-      "details": "Expressive graphic T-shirt for a bold statement."
-    },
-    {
-      "image": "https://i.ibb.co/XDpx6nK/fmale1.png",
-      "name": "Flowy Summer Dress",
-      "type": "Dress",
-      "price": 49.99,
-      "rating": 4.7,
-      "brand": "SummerChic",
-      "details": "Light and flowy summer dress for a stylish look."
-    },
-    {
-      "image": "https://i.ibb.co/xf9RrhS/pa.png",
-      "name": "Skinny Jeans",
-      "type": "Jeans",
-      "price": 39.99,
-      "rating": 4.5,
-      "brand": "Fashionista",
-      "details": "Trendy skinny jeans for a modern and sleek appearance."
-    },
-    {
-      "image": "https://i.ibb.co/Sx3sK5q/fmale.png",
-      "name": "Athletic Leggings",
-      "type": "Leggings",
-      "price": 29.99,
-      "rating": 4.8,
-      "brand": "ActiveStyle",
-      "details": "Stretchy athletic leggings for comfortable workouts."
-    },
-    {
-      "image": "https://i.ibb.co/jh96dkb/fmale2.png",
-      "name": "Faux Leather Jacket",
-      "type": "Jacket",
-      "price": 59.99,
-      "rating": 4.6,
-      "brand": "ChicLeather",
-      "details": "Stylish faux leather jacket for a fashionable edge."
-    },
-    {
-      "image": "https://i.ibb.co/R2YpLQx/female5.png",
-      "name": "Ankle Boots",
-      "type": "Boots",
-      "price": 69.99,
-      "rating": 4.9,
-      "brand": "TrendyFootwear",
-      "details": "Fashionable ankle boots for a trendy look."
-    },
-    {
-      "image": "https://i.ibb.co/PGdXTs7/female4.png",
-      "name": "Knit Sweater",
-      "type": "Sweater",
-      "price": 54.99,
-      "rating": 4.4,
-      "brand": "CozyKnits",
-      "details": "Warm and comfortable knit sweater for cold days."
-    },
-    {
-      "image": "https://i.ibb.co/b5PVK62/female3.png",
-      "name": "Wrap Blouse",
-      "type": "Blouse",
-      "price": 34.99,
-      "rating": 4.5,
-      "brand": "ElegantFeminine",
-      "details": "Elegant wrap blouse for a sophisticated look."
-    },
-    {
-      "image": "path/to/female_image8.jpg",
-      "name": "Wide-Leg Trousers",
-      "type": "Trousers",
-      "price": 44.99,
-      "rating": 4.2,
-      "brand": "ModernChic",
-      "details": "Fashionable wide-leg trousers for a stylish ensemble."
-    },
-    {
-      "image": "https://i.ibb.co/g7ksTVX/female2.png",
-      "name": "Bohemian Maxi Skirt",
-      "type": "Skirt",
-      "price": 49.99,
-      "rating": 4.6,
-      "brand": "BohoVibes",
-      "details": "Bohemian-style maxi skirt for a free-spirited look."
-    },
-    {
-      "image": "https://i.ibb.co/g7ksTVX/female2.png",
-      "name": "Printed Blazer",
-      "type": "Blazer",
-      "price": 59.99,
-      "brand": "BohoVibes",
-      "details": "Bohemian-style maxi skirt for a free-spirited look."
+  {
+    "image": "path/to/produce_image1.jpg",
+    "name": "Organic Apples",
+    "type": "Fruit",
+    "price": 2.99,
+    "details": "Fresh and organic apples, rich in vitamins and antioxidants.",
+    "sellerName": "OrganicHarvest",
+    "sellerEmail": "organic.harvest@example.com",
+    "sellerImage": "path/to/seller_image27.jpg"
+  },
+  {
+    "image": "path/to/produce_image2.jpg",
+    "name": "Spinach Bunch",
+    "type": "Leafy Greens",
+    "price": 1.99,
+    "details": "Nutrient-packed spinach bunch for salads and cooking.",
+    "sellerName": "GreenFieldsFarm",
+    "sellerEmail": "green.fields@example.com",
+    "sellerImage": "path/to/seller_image27.jpg"
+  },
+  {
+    "image": "path/to/produce_image3.jpg",
+    "name": "Sweet Potatoes",
+    "type": "Vegetable",
+    "price": 3.49,
+    "details": "Naturally sweet and nutritious sweet potatoes for various dishes.",
+    "sellerName": "FarmFreshProduce",
+    "sellerEmail": "farm.fresh@example.com",
+    "sellerImage": "path/to/seller_image27.jpg"
+  },
+  {
+    "image": "path/to/produce_image4.jpg",
+    "name": "Juicy Tomatoes",
+    "type": "Vegetable",
+    "price": 2.29,
+    "details": "Ripe and juicy tomatoes, perfect for salads and sauces.",
+    "sellerName": "VineRipeFarms",
+    "sellerEmail": "vine.ripe@example.com",
+    "sellerImage": "path/to/seller_image27.jpg"
+  },
+  {
+    "image": "path/to/produce_image5.jpg",
+    "name": "Fresh Strawberries",
+    "type": "Berry",
+    "price": 4.99,
+    "details": "Plump and sweet strawberries, great for snacks and desserts.",
+    "sellerName": "BerryDelights",
+    "sellerEmail": "berry.delights@example.com",
+    "sellerImage": "path/to/seller_image27.jpg"
+  },
+  {
+    "image": "path/to/produce_image6.jpg",
+    "name": "Crisp Lettuce Heads",
+    "type": "Leafy Greens",
+    "price": 2.79,
+    "details": "Crisp and fresh lettuce heads for salads and wraps.",
+    "sellerName": "CrispyHarvest",
+    "sellerEmail": "crispy.harvest@example.com",
+    "sellerImage": "path/to/seller_image27.jpg"
+  },
+  {
+    "image": "path/to/produce_image7.jpg",
+    "name": "Ripe Avocados",
+    "type": "Fruit",
+    "price": 1.99,
+    "details": "Creamy and ripe avocados, perfect for guacamole and salads.",
+    "sellerName": "AvocadoHub",
+    "sellerEmail": "avocado.hub@example.com",
+    "sellerImage": "path/to/seller_image27.jpg"
+  },
+  {
+    "image": "path/to/produce_image8.jpg",
+    "name": "Fresh Broccoli",
+    "type": "Vegetable",
+    "price": 2.49,
+    "details": "Nutrient-rich broccoli heads, ideal for steaming and roasting.",
+    "sellerName": "BroccoliBounty",
+    "sellerEmail": "broccoli.bounty@example.com",
+    "sellerImage": "path/to/seller_image27.jpg"
+  },
+  {
+    "image": "path/to/produce_image9.jpg",
+    "name": "Golden Pineapples",
+    "type": "Fruit",
+    "price": 3.99,
+    "details": "Sweet and golden pineapples, refreshing and delicious.",
+    "sellerName": "TropicalHarvest",
+    "sellerEmail": "tropical.harvest@example.com",
+    "sellerImage": "path/to/seller_image27.jpg"
+  },
+  {
+    "image": "path/to/produce_image10.jpg",
+    "name": "Fresh Carrots",
+    "type": "Vegetable",
+    "price": 1.79,
+    "details": "Crunchy and vibrant fresh carrots, perfect for snacking and cooking.",
+    "sellerName": "CarrotCraze",
+    "sellerEmail": "carrot.craze@example.com",
+    "sellerImage": "path/to/seller_image27.jpg"
+  },
+  {
+    "image": "path/to/produce_image11.jpg",
+    "name": "Ripe Mangoes",
+    "type": "Fruit",
+    "price": 4.49,
+    "details": "Sweet and juicy mangoes, a tropical delight.",
+    "sellerName": "MangoParadise",
+    "sellerEmail": "mango.paradise@example.com",
+    "sellerImage": "path/to/seller_image27.jpg"
+  },
+  {
+    "image": "path/to/produce_image12.jpg",
+    "name": "Fresh Cucumbers",
+    "type": "Vegetable",
+    "price": 1.59,
+    "details": "Crunchy and refreshing cucumbers, perfect for salads.",
+    "sellerName": "CoolCucumbers",
+    "sellerEmail": "cool.cucumbers@example.com",
+    "sellerImage": "path/to/seller_image27.jpg"
+  },
+  {
+    "image": "path/to/produce_image13.jpg",
+    "name": "Blueberries",
+    "type": "Berry",
+    "price": 5.99,
+    "details": "Plump and antioxidant-rich blueberries for a healthy treat.",
+    "sellerName": "BerryHarbor",
+    "sellerEmail": "berry.harbor@example.com",
+    "sellerImage": "path/to/seller_image27.jpg"
+  },
+  {
+    "image": "path/to/produce_image14.jpg",
+    "name": "Fresh Zucchini",
+    "type": "Vegetable",
+    "price": 2.19,
+    "details": "Versatile zucchini, great for grilling and sautéing.",
+    "sellerName": "ZucchiniGarden",
+    "sellerEmail": "zucchini.garden@example.com",
+    "sellerImage": "path/to/seller_image27.jpg"
+  },
+  {
+    "image": "path/to/produce_image15.jpg",
+    "name": "Sweet Strawberries",
+    "type": "Berry",
+    "price": 4.79,
+    "details": "Sweet and succulent strawberries, a delicious treat.",
+    "sellerName": "SweetBerryFields",
+    "sellerEmail": "sweet.berry.fields@example.com",
+    "sellerImage": "path/to/seller_image27.jpg"
+  },
+  {
+    "image": "path/to/produce_image16.jpg",
+    "name": "Fresh Asparagus",
+    "type": "Vegetable",
+    "price": 3.29,
+    "details": "Tender and flavorful asparagus, perfect for roasting.",
+    "sellerName": "AsparagusHarvest",
+    "sellerEmail": "asparagus.harvest@example.com",
+    "sellerImage": "path/to/seller_image27.jpg"
+  },
+  {
+    "image": "path/to/produce_image17.jpg",
+    "name": "Ripe Peaches",
+    "type": "Fruit",
+    "price": 3.69,
+    "details": "Juicy and fragrant peaches, a summer delight.",
+    "sellerName": "PeachyOrchard",
+    "sellerEmail": "peachy.orchard@example.com",
+    "sellerImage": "path/to/seller_image27.jpg"
+  },
+  {
+    "image": "path/to/produce_image18.jpg",
+    "name": "Crisp Celery",
+    "type": "Vegetable",
+    "price": 1.89,
+    "details": "Crisp and refreshing celery, great for snacks and salads.",
+    "sellerName": "CeleryHarvest",
+    "sellerEmail": "celery.harvest@example.com",
+    "sellerImage": "path/to/seller_image27.jpg"
+  },
+  {
+    "image": "path/to/produce_image19.jpg",
+    "name": "Kiwi Fruit",
+    "type": "Fruit",
+    "price": 2.49,
+    "details": "Exotic and vitamin-packed kiwi fruit for a healthy boost.",
+    "sellerName": "KiwiKorner",
+    "sellerEmail": "kiwi.korner@example.com",
+    "sellerImage": "path/to/seller_image27.jpg"
+  },
+  {
+    "image": "path/to/produce_image20.jpg",
+    "name": "Fresh Bell Peppers",
+    "type": "Vegetable",
+    "price": 2.99,
+    "details": "Colorful and crisp bell peppers, great for cooking and snacking.",
+    "sellerName": "PepperParade",
+    "sellerEmail": "pepper.parade@example.com",
+    "sellerImage": "path/to/seller_image27.jpg"
+  },
+  {
+    "image": "path/to/produce_image21.jpg",
+    "name": "Blackberries",
+    "type": "Berry",
+    "price": 5.49,
+    "details": "Rich and flavorful blackberries, perfect for desserts and smoothies.",
+    "sellerName": "BerryBurst",
+    "sellerEmail": "berry.burst@example.com",
+    "sellerImage": "path/to/seller_image27.jpg"
+  },
+  {
+    "image": "path/to/produce_image22.jpg",
+    "name": "Fresh Radishes",
+    "type": "Vegetable",
+    "price": 1.39,
+    "details": "Crunchy and peppery radishes, great for salads and garnishes.",
+    "sellerName": "RadishHarvest",
+    "sellerEmail": "radish.harvest@example.com",
+    "sellerImage": "path/to/seller_image27.jpg"
+  },
+  {
+    "image": "path/to/produce_image23.jpg",
+    "name": "Mango Melons",
+    "type": "Fruit",
+    "price": 4.29,
+    "details": "Sweet and aromatic mango melons, a refreshing summer treat.",
+    "sellerName": "MelonMangoFusion",
+    "sellerEmail": "melon.mango.fusion@example.com",
+    "sellerImage": "path/to/seller_image27.jpg"
+  },
+  {
+    "image": "path/to/produce_image24.jpg",
+    "name": "Fresh Green Beans",
+    "type": "Vegetable",
+    "price": 2.19,
+    "details": "Tender and green beans, perfect for stir-fries and side dishes.",
+    "sellerName": "GreenBeanGrove",
+    "sellerEmail": "green.bean.grove@example.com",
+    "sellerImage": "path/to/seller_image27.jpg"
+  },
+  {
+    "image": "path/to/produce_image25.jpg",
+    "name": "Ripe Nectarines",
+    "type": "Fruit",
+    "price": 3.79,
+    "details": "Juicy and flavorful nectarines, a tasty addition to fruit salads.",
+    "sellerName": "NectarineHarbor",
+    "sellerEmail": "nectarine.harbor@example.com",
+    "sellerImage": "path/to/seller_image27.jpg"
+  },
+  {
+    "image": "path/to/produce_image26.jpg",
+    "name": "Crisp Iceberg Lettuce",
+    "type": "Leafy Greens",
+    "price": 2.49,
+    "details": "Crisp and refreshing iceberg lettuce, great for salads and wraps.",
+    "sellerName": "IcebergFresh",
+    "sellerEmail": "iceberg.fresh@example.com",
+    "sellerImage": "path/to/seller_image27.jpg"
+  },
+  {
+    "image": "path/to/produce_image27.jpg",
+    "name": "Sweet Cantaloupe",
+    "type": "Fruit",
+    "price": 3.99,
+    "details": "Sweet and succulent cantaloupe, a delicious summer melon.",
+    "sellerName": "CantaloupeDelights",
+    "sellerEmail": "cantaloupe.delights@example.com",
+    "sellerImage": "path/to/seller_image27.jpg"
+  },
+  {
+    "image": "path/to/produce_image28.jpg",
+    "name": "Fresh Cauliflower",
+    "type": "Vegetable",
+    "price": 2.89,
+    "details": "Versatile cauliflower heads, great for roasting and cauliflower rice.",
+    "sellerName": "CauliflowerCraze",
+    "sellerImage": "path/to/seller_image28.jpg",
+    "sellerEmail": "cauliflower.craze@example.com"
+  },
+  {
+    "image": "path/to/produce_image29.jpg",
+    "name": "Golden Honeydew Melon",
+    "type": "Fruit",
+    "price": 4.49,
+    "details": "Sweet and golden honeydew melon, a refreshing summer treat.",
+    "sellerName": "HoneydewHarvest",
+    "sellerImage": "path/to/seller_image29.jpg",
+    "sellerEmail": "honeydew.harvest@example.com"
+  },
+  {
+    "image": "path/to/produce_image30.jpg",
+    "name": "Cherry Tomatoes",
+    "type": "Vegetable",
+    "price": 2.99,
+    "details": "Sweet and vibrant cherry tomatoes, perfect for snacking and salads.",
+    "sellerName": "CherryTomatoTreasure",
+    "sellerImage": "path/to/seller_image30.jpg",
+    "sellerEmail": "cherry.tomato.treasure@example.com"
   }
-      
 ]
-
