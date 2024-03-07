@@ -1,3 +1,4 @@
+import Popular from "./Popular/Popular";
 
 
 const Carousel = () => {
@@ -26,7 +27,9 @@ const Carousel = () => {
                     <img src="https://daisyui.com/images/stock/photo-1601004890684-d8cbf643f5f2.jpg" alt="Pizza" />
                 </div>
             </div>
-            <div></div>
+            <div>
+                <Popular></Popular>
+            </div>
         </div>
     );
 };

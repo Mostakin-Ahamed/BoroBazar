@@ -4,6 +4,8 @@ import Carousel from "./Components/Carousel";
 import Discount from "./Components/Discount";
 import { Link } from "react-router-dom";
 import SpecialFeature from "./Components/SpecialFeatures/SpecialFeature";
+
+
 // import Carousel1 from "./Components/Carousel1";
 
 const Home = () => {
@@ -13,6 +15,7 @@ const Home = () => {
             <Banner></Banner>
             <SpecialFeature></SpecialFeature>
             <Carousel></Carousel>
+            
             <Discount></Discount>
             <Link to={'/allProducts'}><button>All Products</button></Link>
             
