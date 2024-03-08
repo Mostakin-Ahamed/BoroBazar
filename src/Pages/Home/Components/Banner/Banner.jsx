@@ -53,9 +53,9 @@ const Banner = () => {
                         </Slide>
                         <Slide direction="left">
                             <div className='pr-10 lg:mr-44 ml-11 mt-10' >
-                                <img className='lg:h-[480px] lg:w-[718px] object-contain mb-20' src="/src/assets/slider-layer2.png" alt="" />
-                                <img className='absolute ml-44 -mt-64 lg:ml-80 lg:-mt-[250px]' src="/src/assets/slider-layer3.png" alt="" />
-                                <img className='absolute ml-44 -mt-64 lg:ml-96 lg:-mt-[550px]' src="/src/assets/slider-layer6.png" alt="" />
+                                <img className='lg:h-[480px] lg:w-[718px] object-contain mb-20' src="https://i.ibb.co/4NVcNF2/slider-layer2-1.png" alt="" />
+                                <img className='absolute ml-44 -mt-64 lg:ml-80 lg:-mt-[250px]' src="https://i.ibb.co/dGchJhk/slider-layer3.png" alt="" />
+                                <img className='absolute ml-44 -mt-64 lg:ml-96 lg:-mt-[550px]' src="https://i.ibb.co/J2qR4TR/slider-layer6.png" alt="" />
                             </div>
                         </Slide>
 

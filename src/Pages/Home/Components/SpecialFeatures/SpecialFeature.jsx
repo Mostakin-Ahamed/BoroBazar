@@ -12,7 +12,7 @@ const SpecialFeature = () => {
                     <Slide direction="right">
                         <div className="card w-96 bg-base-100 ">
                             <figure className="px-10 pt-10">
-                                <img src="/src/assets/ft-icon1.png" alt="Shoes" className="rounded-xl h-40" />
+                                <img src="https://i.ibb.co/Xp3Z1v4/ft-icon1.png" alt="Shoes" className="rounded-xl h-40" />
                             </figure>
                             <div className="card-body items-center text-center">
                                 <h1 className="card-title">Fresh Organic Vegetable</h1>
@@ -25,7 +25,7 @@ const SpecialFeature = () => {
                     </Slide>
                     <div className="card w-96 bg-base-100 static ">
                         <figure className="px-10 pt-10">
-                            <img src="/src/assets/ft-icon2.png" alt="Shoes" className="rounded-xl h-40" />
+                            <img src="https://i.ibb.co/WKjVKMw/ft-icon2.png" alt="Shoes" className="rounded-xl h-40" />
                         </figure>
                         <div className="card-body items-center text-center">
                             <h1 className="card-title">Fast & Easy Grocery Delivery</h1>
@@ -38,7 +38,7 @@ const SpecialFeature = () => {
                     <Slide direction="left">
                         <div className="card w-96 bg-base-100 ">
                             <figure className="px-10 pt-10">
-                                <img src="/src/assets/ft-icon3.png" alt="Shoes" className="rounded-xl h-40" />
+                                <img src="https://i.ibb.co/2vzcfqM/ft-icon3.png" alt="Shoes" className="rounded-xl h-40" />
                             </figure>
                             <div className="card-body items-center text-center">
                                 <h1 className="card-title">Very Easy Payment System</h1>
