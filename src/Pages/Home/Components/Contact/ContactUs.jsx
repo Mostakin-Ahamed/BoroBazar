@@ -9,7 +9,7 @@ const ContactUs = () => {
                     <p className="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis, suscipit!</p>
                     <div className="flex flex-col justify-center items-center gap-4">
                         <input type="text" placeholder="Type here" className="input input-bordered  w-full max-w-xs" />
-                        <button className="btn btn-outline bg-orange-600 px-16 ">Submit</button>
+                        <button className="btn btn-outline text-white bg-orange-600 px-16 ">Submit</button>
                     </div>
 
                 </div>

@@ -8,7 +8,7 @@ import Login from "../Pages/Login/Login";
 import Register from "../Pages/Register/Register";
 import SellProduct from "../Pages/Sell Product/SellProduct";
 import PrivateRoute from "./PrivateRoute";
-import UserCart from "../Pages/UserCart/UserCart";
+import MyCart from '../Pages/UserCart/MyCart';
 import AllProducts from "../Pages/AllProducts/AllProducts"
 import Detail from "../Pages/SingleDetail/Detail";
 
@@ -33,17 +33,20 @@ import Detail from "../Pages/SingleDetail/Detail";
           },{
             path:'/sellProduct',
             element: <PrivateRoute><SellProduct></SellProduct></PrivateRoute> 
-          },{
-            path:'/myCart',
-            element: <PrivateRoute><UserCart></UserCart> </PrivateRoute>
-          },{
+          },
+          {
+            path:`/myCart`,
+            element: <PrivateRoute><MyCart></MyCart> </PrivateRoute>,
+            loader: ()=>fetch('http://localhost:5000/cart')
+          },
+          {
             path:'/allProducts',
             element: <AllProducts></AllProducts>
           },
           {
             path: `/:id`,
             element: <PrivateRoute><Detail></Detail></PrivateRoute>,
-            loader: ({params})=> fetch(`https://clothing-store-server-neon.vercel.app/${params.id}`)
+            loader: ({params})=> fetch(`http://localhost:5000/${params.id}`)
         },
         ]
         },

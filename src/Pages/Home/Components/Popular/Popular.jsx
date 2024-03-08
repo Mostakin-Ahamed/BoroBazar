@@ -10,7 +10,7 @@ const Popular = () => {
             <div className=" flex gap-2 justify-evenly   ">
                 <div className="card relative popular w-2/12 bg-base-100 ">
                     <figure className="px-10 pt-10">
-                        <img src="../../../../../public/h5-icon1.png" alt="Shoes" className="rounded-xl h-20" />
+                        <img src="/h5-icon1.png" alt="Shoes" className="rounded-xl h-20" />
                     </figure>
                     <div className="card-body items-center text-center">
                         <h2 className="card-title">Vegetables</h2>
@@ -18,7 +18,7 @@ const Popular = () => {
                 </div>
                 <div className="card popular w-2/12 bg-base-100 ">
                     <figure className="px-10 pt-10">
-                        <img src="../../../../../public/h5-icon2.png" alt="Shoes" className="rounded-xl h-20" />
+                        <img src="/h5-icon2.png" alt="Shoes" className="rounded-xl h-20" />
                     </figure>
                     <div className="card-body items-center text-center">
                         <h2 className="card-title">Fruit</h2>
@@ -26,7 +26,7 @@ const Popular = () => {
                 </div>
                 <div className="card popular w-2/12 bg-base-100 ">
                     <figure className="px-10 pt-10">
-                        <img src="../../../../../public/h5-icon3.png" alt="Shoes" className="rounded-xl h-20" />
+                        <img src="/h5-icon3.png" alt="Shoes" className="rounded-xl h-20" />
                     </figure>
                     <div className="card-body items-center text-center">
                         <h2 className="card-title">Dried</h2>
@@ -34,7 +34,7 @@ const Popular = () => {
                 </div>
                 <div className="card popular w-2/12 bg-base-100 ">
                     <figure className="px-10 pt-10">
-                        <img src="../../../../../public/h5-icon4.png" alt="Shoes" className="rounded-xl h-20" />
+                        <img src="/h5-icon4.png" alt="Shoes" className="rounded-xl h-20" />
                     </figure>
                     <div className="card-body items-center text-center">
                         <h2 className="card-title">Juice</h2>
@@ -42,7 +42,7 @@ const Popular = () => {
                 </div>
                 <div  className="card popular w-2/12 bg-base-100  ">
                     <figure className="px-10 pt-10">
-                        <img src="../../../../../public/h5-icon5.png" alt="Shoes" className="rounded-xl h-20" />
+                        <img src="/h5-icon5.png" alt="Shoes" className="rounded-xl h-20" />
                     </figure>
                     <div className="card-body items-center text-center">
                         <h2 className="card-title">Salad</h2>
@@ -50,7 +50,7 @@ const Popular = () => {
                 </div>
                 <div className="card popular w-2/12 bg-base-100 ">
                     <figure className="px-10 pt-10">
-                        <img src="../../../../../public/h5-icon6.png" alt="Shoes" className="rounded-xl h-20" />
+                        <img src="/h5-icon6.png" alt="Shoes" className="rounded-xl h-20" />
                     </figure>
                     <div className="card-body items-center text-center">
                         <h2 className="card-title">Organic</h2>
