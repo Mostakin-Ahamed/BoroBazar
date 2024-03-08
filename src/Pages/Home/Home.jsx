@@ -7,6 +7,8 @@ import SpecialFeature from "./Components/SpecialFeatures/SpecialFeature";
 import Products from "./Components/OurProducts/Products";
 import CountDown from "./Components/CountDown/CountDown";
 import Farmers from "./Components/OurFarmers/Farmers";
+import Reviews from "./Components/ClientReview/Reviews";
+import ContactUs from "./Components/Contact/ContactUs";
 
 
 // import Carousel1 from "./Components/Carousel1";
@@ -22,6 +24,8 @@ const Home = () => {
             <Products></Products>
             <CountDown></CountDown>
             <Farmers></Farmers>
+            <Reviews></Reviews>
+            <ContactUs></ContactUs>
             
         </div>
     );

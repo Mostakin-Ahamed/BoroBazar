@@ -10,6 +10,7 @@ import SellProduct from "../Pages/Sell Product/SellProduct";
 import PrivateRoute from "./PrivateRoute";
 import UserCart from "../Pages/UserCart/UserCart";
 import AllProducts from "../Pages/AllProducts/AllProducts"
+import Detail from "../Pages/SingleDetail/Detail";
 
 
 
@@ -38,7 +39,12 @@ import AllProducts from "../Pages/AllProducts/AllProducts"
           },{
             path:'/allProducts',
             element: <AllProducts></AllProducts>
-          }
+          },
+          {
+            path: `/:id`,
+            element: <PrivateRoute><Detail></Detail></PrivateRoute>,
+            loader: ({params})=> fetch(`https://clothing-store-server-neon.vercel.app/${params.id}`)
+        },
         ]
         },
       ]);
