@@ -11,11 +11,11 @@ const useCart = () => {
     const {refetch, data : carts=[]} = useQuery({
         queryKey: ['cart', user?.email],
         queryFn: async()=>{
-            const res = await axiosSecure.get(`/cartItems?email=${user?.email}`)
+            const res = await axiosSecure.get('https://boro-bazar-server.vercel.app/carts')
             return res.data;
         }
     })
-    return [carts,refetch]
+    return {carts,refetch}
 };
 
 export default useCart;

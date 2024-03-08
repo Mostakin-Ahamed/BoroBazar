@@ -1,6 +1,6 @@
 import {
-    createBrowserRouter,
-    } from "react-router-dom";
+  createBrowserRouter,
+  } from "react-router-dom";
 import MainLayout from "../Layout/MainLayout";
 import Home from "../Pages/Home/Home";
 import Error from "../Pages/ErrorPage/Error";
@@ -15,39 +15,39 @@ import Detail from "../Pages/SingleDetail/Detail";
 
 
 
-   export const router = createBrowserRouter([
+ export const router = createBrowserRouter([
+      {
+        path: "/",
+        element: <MainLayout></MainLayout>,
+        errorElement:<Error></Error>,
+        children:[{
+          path:'/',
+          element: <Home></Home>
+        },
         {
-          path: "/",
-          element: <MainLayout></MainLayout>,
-          errorElement:<Error></Error>,
-          children:[{
-            path:'/',
-            element: <Home></Home>
-          },
-          {
-            path:'/login',
-            element: <Login></Login>
-          },{
-            path: '/register',
-            element: <Register></Register>
-          },{
-            path:'/sellProduct',
-            element: <PrivateRoute><SellProduct></SellProduct></PrivateRoute> 
-          },
-          {
-            path:`/myCart`,
-            element: <PrivateRoute><MyCart></MyCart> </PrivateRoute>,
-            loader: ()=>fetch('http://localhost:5000/cart')
-          },
-          {
-            path:'/allProducts',
-            element: <AllProducts></AllProducts>
-          },
-          {
-            path: `/:id`,
-            element: <PrivateRoute><Detail></Detail></PrivateRoute>,
-            loader: ({params})=> fetch(`http://localhost:5000/${params.id}`)
+          path:'/login',
+          element: <Login></Login>
+        },{
+          path: '/register',
+          element: <Register></Register>
+        },{
+          path:'/sellProduct',
+          element: <PrivateRoute><SellProduct></SellProduct></PrivateRoute> 
         },
-        ]
+        {
+          path:`/myCart`,
+          element: <PrivateRoute><MyCart></MyCart> </PrivateRoute>,
+          loader: ()=>fetch('https://boro-bazar-server.vercel.app/cart')
         },
-      ]);
+        {
+          path:'/allProducts',
+          element: <AllProducts></AllProducts>
+        },
+        {
+          path: '/allProducts/:id',
+          element: <PrivateRoute><Detail></Detail></PrivateRoute>,
+          loader: ({params})=> fetch(`https://boro-bazar-server.vercel.app/item/${params.id}`)
+      },
+      ]
+      },
+    ]);

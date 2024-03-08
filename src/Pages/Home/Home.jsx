@@ -7,8 +7,9 @@ import SpecialFeature from "./Components/SpecialFeatures/SpecialFeature";
 import Products from "./Components/OurProducts/Products";
 import CountDown from "./Components/CountDown/CountDown";
 import Farmers from "./Components/OurFarmers/Farmers";
-import Reviews from "./Components/ClientReview/Reviews";
+
 import ContactUs from "./Components/Contact/ContactUs";
+import Reviews from "./Components/ClientReview/Reviews";
 
 
 // import Carousel1 from "./Components/Carousel1";

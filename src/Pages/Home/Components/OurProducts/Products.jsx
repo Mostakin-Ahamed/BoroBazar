@@ -8,7 +8,7 @@ import { SwiperSlide } from "swiper/react";
 const Products = () => {
     const [product, setProduct] = useState([])
     useEffect(() => {
-        fetch('http://localhost:5000/items')
+        fetch('https://boro-bazar-server.vercel.app/items')
             .then(res => res.json())
             .then(data => setProduct(data))
     }, [])
@@ -30,12 +30,13 @@ const Products = () => {
                                     <div className="card-body">
                                         <h2 className="font-bold text-2xl text-center">{item.name}</h2>
                                         <h2 className="font-semibold text-center text-xl">${item.price}</h2>
-                                        
+
                                         <div className="card-actions justify-center">
-                                            <Link to={`/${item._id}`}><button className="btn btn-outline btn-success px-10">Details</button></Link>
+                                            <Link to={`/allProducts/${item._id}`}><button className="btn btn-outline btn-success px-10">Details</button></Link>
                                         </div>
                                     </div>
-                                </div></SwiperSlide>))
+                                </div>
+                                </SwiperSlide>))
                     }
                 </div>
             </Slide>
