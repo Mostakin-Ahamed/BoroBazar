@@ -19,16 +19,15 @@ const BestDeals = () => {
             .then(data => setProducts(data))
     }, [])
     console.log(products);
-    const popular = products.filter(product => (product.price < 50) && (product.price > 20))
+    // const popular = products.filter(product => (product.price < 50) && (product.price > 20))
  
     return (
         <div className="my-16 max-h-[900px]">
             <Slide direction="down">
-                <div className="flex justify-center">
-                    <h1 className="text-3xl font-bold text-center border-double border-y-8 border-[#9be9a0] inline-block">
-                        Our Best Deals
-                    </h1>
-                </div>
+            <div className="font-bold text-5xl text-center mb-11 ">
+                <p>All Our  <span className="text-orange-500"> Products</span> </p>
+
+            </div>
             </Slide>
             <Slide direction="up" duration={1000} className="my-4">
                 <Swiper
@@ -55,7 +54,7 @@ const BestDeals = () => {
                     className="mySwiper"
                 >
                     {
-                        popular.map(item => (
+                        products.map(item => (
                             <SwiperSlide key={item.id}>
                                 <div className="card w-96 bg-base-100 shadow-xl">
                                     <figure><img className="h-36" src={item.image} alt="Shoes" /></figure>

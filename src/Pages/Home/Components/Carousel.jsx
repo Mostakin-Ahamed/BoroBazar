@@ -3,7 +3,7 @@ import Popular from "./Popular/Popular";
 
 const Carousel = () => {
     return (
-        <div>
+        <div className="w-9/12 mx-auto">
             <div className="carousel carousel-center rounded-box">
                 <div className="carousel-item">
                     <img src="https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg" alt="Pizza" />
