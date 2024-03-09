@@ -40,7 +40,7 @@ const Navbar = () => {
                             </ul>
                         </div>
                         <div className="lg:flex md:flex gap-5"><img className="h-[35px] ml-3 pl-r" src="/icon.svg" alt="" />
-                        <Link to="/"><img className="h-10 ml-5" src="/src/assets/icon.png" alt="" /> </Link>
+                        <Link to="/"><img className="h-10 ml-5" src="https://i.ibb.co/4WpHcxq/icon.png" alt="" /> </Link>
                         <p className=" normal-case text-xl pt-2 ">BoroBazar</p>
                         </div>
                     </div>

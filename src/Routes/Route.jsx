@@ -41,7 +41,7 @@ import Detail from "../Pages/SingleDetail/Detail";
         },
         {
           path:'/allProducts',
-          element: <AllProducts></AllProducts>
+          element: <PrivateRoute><AllProducts></AllProducts></PrivateRoute>
         },
         {
           path: '/allProducts/:id',
