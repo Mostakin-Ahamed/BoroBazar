@@ -11,7 +11,6 @@ const Discount = () => {
             <Slide direction="right">
                 <img src="https://i.ibb.co/0YrCTHh/offer1.png" alt="6" border="0" />
             </Slide>
-
         </div>
     );
 };

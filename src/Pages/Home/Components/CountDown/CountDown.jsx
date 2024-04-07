@@ -2,7 +2,7 @@
 
 const CountDown = () => {
     return (
-        <div className="mt-16 max-h-[700px] border border-red-600" style={{ backgroundImage: 'url("https://i.ibb.co/cNPRgBs/deal-bg2.jpg")' }}>
+        <div className="mt-16 max-h-[700px] " style={{ backgroundImage: 'url("https://i.ibb.co/cNPRgBs/deal-bg2.jpg")' }}>
             <div className="w-8/12 mx-auto py-56">
                 <div className=" text-white text-left mb-16 ">
                     <p className="font-bold text-5xl pb-10">Deals Of The <span className="text-orange-500"> Week!</span> </p>
