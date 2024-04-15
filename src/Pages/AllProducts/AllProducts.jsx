@@ -30,7 +30,7 @@ const BestDeals = () => {
     const endIndex = (currentPage + 1) * itemsPerPage;
 
     return (
-        <div className="my-16 mb-10 w-9/12 mx-auto max-h-[900px]">
+        <div className="my-3 mb-10 w-9/12 mx-auto ">
             <Slide direction="down">
                 <div className="font-bold text-5xl text-center mb-11 ">
                     <p>All Our  <span className="text-orange-500"> Products</span> </p>
@@ -63,9 +63,9 @@ const BestDeals = () => {
                 <div className="ml-10 mb-10">
                     <p>Items per page</p>
                     <select className="ml-5 border border-black rounded-lg" value={itemsPerPage} onChange={handleItemsPerPage}>
-                        <option value="5">5</option>
-                        <option value="10">10</option>
-                        <option value="15">15</option>
+                        <option value="3">3</option>
+                        <option value="6">6</option>
+                        <option value="9">9</option>
                     </select>
                 </div>
             </div>
